@@ -1,0 +1,27 @@
+html{
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+  background: #1D174F;
+  height: 100vh;
+}
+
+
+h1, h2, h3 ,h4{
+  font-family: 'Alata', Regular;
+  color: #FFFFFF;
+}
+
+p {
+  font-family: 'Alata', Regular;
+  color: #FFFFFF;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

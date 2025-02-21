@@ -1,0 +1,63 @@
+.contactSection {
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    
+  }
+  
+  .scrollingText {
+    font-size: 6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    white-space: nowrap;
+    animation: scrollText 10s linear infinite;
+  }
+
+  .scrollingText2 {
+    margin-top: -80px;
+    font-size: 6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    white-space: nowrap;
+    animation: scrollText2 10s linear infinite;
+  }
+  
+  @keyframes scrollText {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  @keyframes scrollText2 {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+  
+  .contactButton {
+    display: inline-block;
+    padding: 18px 36px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Alata', Regular;
+    
+  }
+  
+  .contactButton:hover {
+    background: white;
+    color: #1F0C60;
+  }
+

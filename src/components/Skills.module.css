@@ -1,0 +1,23 @@
+.skillsSection{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.heading{
+    font-size: 55pt;
+    margin-top: 10rem;
+}
+
+.skill{
+    font-size: 35pt;
+    margin-top: 1rem;
+    transition: filter 0.3s ease-in-out;
+}
+
+.skill:hover{
+    filter: blur(5px);
+}
+
+.table{
+    margin-top: -2rem;
+}
